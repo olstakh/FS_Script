@@ -7,18 +7,6 @@ type ArtifactType =
     | Feet
     | Ring
     | Necklace
-    with
-        static member FromString (s: string) =
-            match s with
-            | "H" -> Helm
-            | "A" -> Armor
-            | "W" -> Weapon
-            | "S" -> Shield
-            | "C" -> Cape
-            | "F" -> Feet
-            | "R" -> Ring
-            | "N" -> Necklace
-            | _ -> failwithf "Unknown artifact type: %s" s
 
 type Stats =
     {
@@ -33,13 +21,6 @@ type Stats =
                 Defense = s1.Defense + s2.Defense
                 SpellPower = s1.SpellPower + s2.SpellPower
                 Knowledge = s1.Knowledge + s2.Knowledge
-            }
-        static member Zero =
-            {
-                Attack = 0
-                Defense = 0
-                SpellPower = 0
-                Knowledge = 0
             }
         static member Create (attack: int, defense: int, spellPower: int, knowledge: int) =
             {

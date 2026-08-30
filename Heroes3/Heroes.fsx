@@ -33,63 +33,63 @@ module Classes =
 module Artifacts =
     let SimpleWeapons =
         [
-            { Type = ArtifactType.Weapon; Name = "Секира Кентавра";             Bonuses = Stats.Create(2, 0, 0, 0) }
-            { Type = ArtifactType.Weapon; Name = "Клинок мёртвого рыцаря";      Bonuses = Stats.Create(3, 0, 0, 0) }
-            { Type = ArtifactType.Weapon; Name = "Кистень великого гнолла";     Bonuses = Stats.Create(4, 0, 0, 0) }
-            { Type = ArtifactType.Weapon; Name = "Дубина свирепого огра";       Bonuses = Stats.Create(5, 0, 0, 0) }
-            { Type = ArtifactType.Weapon; Name = "Меч пылающей преисподней";    Bonuses = Stats.Create(6, 0, 0, 0) }
-            { Type = ArtifactType.Weapon; Name = "Трезубец могущества";         Bonuses = Stats.Create(7, 0, 0, 0) }
-            { Type = ArtifactType.Weapon; Name = "Гладиус титана";              Bonuses = Stats.Create(12, -3, 0, 0) }
+            { Type = Weapon; Name = "Секира Кентавра";             Bonuses = Stats.Create(2, 0, 0, 0) }
+            { Type = Weapon; Name = "Клинок мёртвого рыцаря";      Bonuses = Stats.Create(3, 0, 0, 0) }
+            { Type = Weapon; Name = "Кистень великого гнолла";     Bonuses = Stats.Create(4, 0, 0, 0) }
+            { Type = Weapon; Name = "Дубина свирепого огра";       Bonuses = Stats.Create(5, 0, 0, 0) }
+            { Type = Weapon; Name = "Меч пылающей преисподней";    Bonuses = Stats.Create(6, 0, 0, 0) }
+            { Type = Weapon; Name = "Трезубец могущества";         Bonuses = Stats.Create(7, 0, 0, 0) }
+            { Type = Weapon; Name = "Гладиус титана";              Bonuses = Stats.Create(12, -3, 0, 0) }
         ]
     let SimpleShields =
         [
-            { Type = ArtifactType.Shield; Name = "Щит владыки гномов";          Bonuses = Stats.Create(0, 2, 0, 0) }
-            { Type = ArtifactType.Shield; Name = "Щит тоскующих мертвецов ";    Bonuses = Stats.Create(0, 3, 0, 0) }
-            { Type = ArtifactType.Shield; Name = "Щит короля гноллов";          Bonuses = Stats.Create(0, 4, 0, 0) }
-            { Type = ArtifactType.Shield; Name = "Щит яростного огра";          Bonuses = Stats.Create(0, 5, 0, 0) }
-            { Type = ArtifactType.Shield; Name = "Щит проклятых";               Bonuses = Stats.Create(0, 6, 0, 0) }
-            { Type = ArtifactType.Shield; Name = "Щит морской славы";           Bonuses = Stats.Create(0, 7, 0, 0) }
-            { Type = ArtifactType.Shield; Name = "Щит часового";                Bonuses = Stats.Create(-3, 12, 0, 0) }
+            { Type = Shield; Name = "Щит владыки гномов";          Bonuses = Stats.Create(0, 2, 0, 0) }
+            { Type = Shield; Name = "Щит тоскующих мертвецов ";    Bonuses = Stats.Create(0, 3, 0, 0) }
+            { Type = Shield; Name = "Щит короля гноллов";          Bonuses = Stats.Create(0, 4, 0, 0) }
+            { Type = Shield; Name = "Щит яростного огра";          Bonuses = Stats.Create(0, 5, 0, 0) }
+            { Type = Shield; Name = "Щит проклятых";               Bonuses = Stats.Create(0, 6, 0, 0) }
+            { Type = Shield; Name = "Щит морской славы";           Bonuses = Stats.Create(0, 7, 0, 0) }
+            { Type = Shield; Name = "Щит часового";                Bonuses = Stats.Create(-3, 12, 0, 0) }
         ]
     let SimpleHelms =
         [
-            { Type = ArtifactType.Helm; Name = "Шлем белого единорога";         Bonuses = Stats.Create(0, 0, 0, 1) }
-            { Type = ArtifactType.Helm; Name = "Шлем-череп";                    Bonuses = Stats.Create(0, 0, 0, 2) }
-            { Type = ArtifactType.Helm; Name = "Шлем хаоса";                    Bonuses = Stats.Create(0, 0, 0, 3) }
-            { Type = ArtifactType.Helm; Name = "Корона великого колдуна";       Bonuses = Stats.Create(0, 0, 0, 4) }
-            { Type = ArtifactType.Helm; Name = "Шлем бушующего пекла";          Bonuses = Stats.Create(0, 0, 0, 5) }
-            { Type = ArtifactType.Helm; Name = "Корона пяти морей";             Bonuses = Stats.Create(0, 0, 0, 6) }
-            { Type = ArtifactType.Helm; Name = "Шлем небесного грома";          Bonuses = Stats.Create(0, 0, -2, 10) }
+            { Type = Helm; Name = "Шлем белого единорога";         Bonuses = Stats.Create(0, 0, 0, 1) }
+            { Type = Helm; Name = "Шлем-череп";                    Bonuses = Stats.Create(0, 0, 0, 2) }
+            { Type = Helm; Name = "Шлем хаоса";                    Bonuses = Stats.Create(0, 0, 0, 3) }
+            { Type = Helm; Name = "Корона великого колдуна";       Bonuses = Stats.Create(0, 0, 0, 4) }
+            { Type = Helm; Name = "Шлем бушующего пекла";          Bonuses = Stats.Create(0, 0, 0, 5) }
+            { Type = Helm; Name = "Корона пяти морей";             Bonuses = Stats.Create(0, 0, 0, 6) }
+            { Type = Helm; Name = "Шлем небесного грома";          Bonuses = Stats.Create(0, 0, -2, 10) }
         ]
     let SimpleArmors =
         [
-            { Type = ArtifactType.Armor; Name = "Доспех из окаменелого дерева"; Bonuses = Stats.Create(0, 0, 1, 0) }
-            { Type = ArtifactType.Armor; Name = "Рёбра";                        Bonuses = Stats.Create(0, 0, 2, 0) }
-            { Type = ArtifactType.Armor; Name = "Чешуйчатый доспех василиска";  Bonuses = Stats.Create(0, 0, 3, 0) }
-            { Type = ArtifactType.Armor; Name = "Кираса короля циклопов";       Bonuses = Stats.Create(0, 0, 4, 0) }
-            { Type = ArtifactType.Armor; Name = "Нагрудник из огненной серы";   Bonuses = Stats.Create(0, 0, 5, 0) }
-            { Type = ArtifactType.Armor; Name = "Королевские доспехи никсов";   Bonuses = Stats.Create(0, 0, 6, 0) }
-            { Type = ArtifactType.Armor; Name = "Латы титана";                  Bonuses = Stats.Create(0, 0, 10, -2) }
+            { Type = Armor; Name = "Доспех из окаменелого дерева"; Bonuses = Stats.Create(0, 0, 1, 0) }
+            { Type = Armor; Name = "Рёбра";                        Bonuses = Stats.Create(0, 0, 2, 0) }
+            { Type = Armor; Name = "Чешуйчатый доспех василиска";  Bonuses = Stats.Create(0, 0, 3, 0) }
+            { Type = Armor; Name = "Кираса короля циклопов";       Bonuses = Stats.Create(0, 0, 4, 0) }
+            { Type = Armor; Name = "Нагрудник из огненной серы";   Bonuses = Stats.Create(0, 0, 5, 0) }
+            { Type = Armor; Name = "Королевские доспехи никсов";   Bonuses = Stats.Create(0, 0, 6, 0) }
+            { Type = Armor; Name = "Латы титана";                  Bonuses = Stats.Create(0, 0, 10, -2) }
         ]
     let AngelSet =
         [
-            { Type = ArtifactType.Armor;     Name = "Доспехи чудес";                    Bonuses = Stats.Create(1, 1, 1, 1) }
-            { Type = ArtifactType.Feet;      Name = "Сандалии святого ";                Bonuses = Stats.Create(2, 2, 2, 2) }
-            { Type = ArtifactType.Necklace;  Name = "Ожерелье небесной благодати";      Bonuses = Stats.Create(3, 3, 3, 3) }
-            { Type = ArtifactType.Shield;    Name = "Щит львиной храбрости";            Bonuses = Stats.Create(4, 4, 4, 4) }
-            { Type = ArtifactType.Weapon;    Name = "Меч правосудия";                   Bonuses = Stats.Create(5, 5, 5, 5) }
-            { Type = ArtifactType.Helm;      Name = "Шлем божественного просветления";  Bonuses = Stats.Create(6, 6, 6, 6) }
+            { Type = Armor;     Name = "Доспехи чудес";                    Bonuses = Stats.Create(1, 1, 1, 1) }
+            { Type = Feet;      Name = "Сандалии святого ";                Bonuses = Stats.Create(2, 2, 2, 2) }
+            { Type = Necklace;  Name = "Ожерелье небесной благодати";      Bonuses = Stats.Create(3, 3, 3, 3) }
+            { Type = Shield;    Name = "Щит львиной храбрости";            Bonuses = Stats.Create(4, 4, 4, 4) }
+            { Type = Weapon;    Name = "Меч правосудия";                   Bonuses = Stats.Create(5, 5, 5, 5) }
+            { Type = Helm;      Name = "Шлем божественного просветления";  Bonuses = Stats.Create(6, 6, 6, 6) }
         ]
 
     let DragonSet =
         [
-            { Type = ArtifactType.Ring;      Name = "Неподвижный глаз дракона";         Bonuses = Stats.Create(1, 1, 0, 0) }
-            { Type = ArtifactType.Weapon;    Name = "Языки пламени красного дракона";   Bonuses = Stats.Create(2, 2, 0, 0) }
-            { Type = ArtifactType.Shield;    Name = "Щит из чешуи дракона";             Bonuses = Stats.Create(3, 3, 0, 0) }
-            { Type = ArtifactType.Feet;      Name = "Наголенники из драконьей кости";   Bonuses = Stats.Create(0, 0, 1, 1) }
-            { Type = ArtifactType.Cape;      Name = "Плащ из драконьих крыльев";        Bonuses = Stats.Create(0, 0, 2, 2) }
-            { Type = ArtifactType.Necklace;  Name = "Ожерелье из зубов дракона";        Bonuses = Stats.Create(0, 0, 3, 3) }      
-            { Type = ArtifactType.Helm;      Name = "Корона из зубов дракона";          Bonuses = Stats.Create(0, 0, 4, 4) }
+            { Type = Ring;      Name = "Неподвижный глаз дракона";         Bonuses = Stats.Create(1, 1, 0, 0) }
+            { Type = Weapon;    Name = "Языки пламени красного дракона";   Bonuses = Stats.Create(2, 2, 0, 0) }
+            { Type = Shield;    Name = "Щит из чешуи дракона";             Bonuses = Stats.Create(3, 3, 0, 0) }
+            { Type = Feet;      Name = "Наголенники из драконьей кости";   Bonuses = Stats.Create(0, 0, 1, 1) }
+            { Type = Cape;      Name = "Плащ из драконьих крыльев";        Bonuses = Stats.Create(0, 0, 2, 2) }
+            { Type = Necklace;  Name = "Ожерелье из зубов дракона";        Bonuses = Stats.Create(0, 0, 3, 3) }      
+            { Type = Helm;      Name = "Корона из зубов дракона";          Bonuses = Stats.Create(0, 0, 4, 4) }
         ]
 
     let AllArtifacts =
