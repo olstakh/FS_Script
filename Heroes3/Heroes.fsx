@@ -44,7 +44,7 @@ module Artifacts =
     let SimpleShields =
         [
             { Type = Shield; Name = "Щит владыки гномов";          Bonuses = Stats.Create(0, 2, 0, 0) }
-            { Type = Shield; Name = "Щит тоскующих мертвецов";    Bonuses = Stats.Create(0, 3, 0, 0) }
+            { Type = Shield; Name = "Щит тоскующих мертвецов";     Bonuses = Stats.Create(0, 3, 0, 0) }
             { Type = Shield; Name = "Щит короля гноллов";          Bonuses = Stats.Create(0, 4, 0, 0) }
             { Type = Shield; Name = "Щит яростного огра";          Bonuses = Stats.Create(0, 5, 0, 0) }
             { Type = Shield; Name = "Щит проклятых";               Bonuses = Stats.Create(0, 6, 0, 0) }
@@ -74,7 +74,7 @@ module Artifacts =
     let AngelSet =
         [
             { Type = Armor;     Name = "Доспехи чудес";                    Bonuses = Stats.Create(1, 1, 1, 1) }
-            { Type = Feet;      Name = "Сандалии святого";                Bonuses = Stats.Create(2, 2, 2, 2) }
+            { Type = Feet;      Name = "Сандалии святого";                 Bonuses = Stats.Create(2, 2, 2, 2) }
             { Type = Necklace;  Name = "Ожерелье небесной благодати";      Bonuses = Stats.Create(3, 3, 3, 3) }
             { Type = Shield;    Name = "Щит львиной храбрости";            Bonuses = Stats.Create(4, 4, 4, 4) }
             { Type = Weapon;    Name = "Меч правосудия";                   Bonuses = Stats.Create(5, 5, 5, 5) }
